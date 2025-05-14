@@ -24,7 +24,7 @@ namespace POE
         static void PlaySound()
         {
             // Path to the sound file
-            string filePath = @"Greeting.wav";
+            string filePath = @"C:\Users\yusuf\source\repos\FinalPOE1\Greeting.wav";
             try
             {
                 using (SoundPlayer player = new SoundPlayer(filePath))
@@ -126,4 +126,3 @@ namespace POE
             }
         }
     }
-}
